@@ -93,7 +93,7 @@ This project was developed and benchmarked on the following hardware and softwar
 
 | Software | Version |
 |---|---|
-| **Operating System** | Fedora Linux 43 (Workstation Edition) |
+| **Operating System** | Windows 11 x64 |
 | **Kernel** | 6.18.8-200.fc43.x86_64 |
 | **Python** | 3.14.3 |
 | **Node.js** | 22.22.0 |
@@ -716,11 +716,11 @@ These simplifications are intentional — the simulator prioritises **conceptual
 If you use this simulator in research or academic work, please cite:
 
 ```bibtex
-@software{singh2026montecarlo,
-  author  = {Abhinav Kumar Singh},
+@software{Zylus08montecarlo,
+  author  = {Saksham Mishra},
   title   = {Particle Collision Monte Carlo Simulator},
   year    = {2026},
-  url     = {https://github.com/abhinav29102005/monte-carlo}
+  url     = {[https://github.com/Zylus08/Neural-Surrogate-Monte-Carlo-Collision-Simulator]}
 }
 ```
 

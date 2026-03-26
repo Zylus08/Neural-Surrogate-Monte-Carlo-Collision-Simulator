@@ -1,0 +1,63 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+.vercel/
+.turbo/
+*.pack
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Data & Results (large generated files) =====
+*.csv.gz
+*.npz
+particle-collision-simulator/data/raw/
+particle-collision-simulator/data/processed/
+particle-collision-simulator/results/plots/
+particle-collision-simulator/results/logs/
+
+# ===== OS =====
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ===== Misc =====
+*.log
+*.pid
+*.seed
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+models/*.pt
+ml/data/*.pkl
